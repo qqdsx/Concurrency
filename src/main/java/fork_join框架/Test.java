@@ -42,7 +42,7 @@ public class Test extends RecursiveTask<Integer>{
 
     public static void main(String[] args) {
         ForkJoinPool forkJoinPool = new ForkJoinPool();
-        Test test = new Test(1,4);
+        Test test = new Test(1,10);
         Future<Integer> result = forkJoinPool.submit(test);
         try {
             System.out.println(result.get());

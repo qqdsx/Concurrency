@@ -1,12 +1,7 @@
 package 并发_死锁_1;
 
-import sun.misc.Unsafe;
 
 import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Test1 {
     public static String obj1 = "obj1";
